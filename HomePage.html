@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickFoods - Home</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #343a40; color: #ffffff;">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Logo with image -->
+            <a class="navbar-brand" href="#">
+                <img src="images/QuickFoods.png" alt="QuickFoods Logo" width="50" height="50">
+                QuickFoods
+            </a>
+            <!-- End Logo with image -->
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="HomePage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blogs.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container mt-5">
+        <div class="jumbotron" style="background-color: #343a40;">
+            <h1 class="display-4">Welcome to QuickFoods</h1>
+            <p class="lead">Your destination for delicious frozen foods.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Explore Products</a>
+        </div>
+    </div>
+    <!-- Products Section -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Product Cards (Repeat for each product) -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card" style="background-color: #454d55; color: #ffffff;">
+                    <img src="images/qourma.jpg" class="card-img-top" alt="Product 1" height=200 width=50>
+                    <div class="card-body">
+                        <h5 class="card-title">Quick Qourma</h5>
+                        <p class="card-text">Delicious Quick Qourma ready to cook at home.</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other products -->
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
